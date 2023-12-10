@@ -34,8 +34,8 @@
 
 import boto3
 import json
-s3_client = boto3.client('s3',aws_access_key_id = 'AKIA2AGRDARF2X7SU636',
-aws_secret_access_key = '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')
+s3_client = boto3.client('s3',aws_access_key_id = 'AKIA2AGRDARF2X7SU63636',
+aws_secret_access_key = '16zBYG7/Cd5j5VIk30BWM29LXC7NjjaKfDvfj9Aii')
 
 data = {'Sno': 3090, 'Date': '8/11/2021', 'Time': '8:00 AM', 'State/UnionTerritory': 'Maharashtra', 'ConfirmedIndianNational': 0, 'ConfirmedForeignNational': 0, 'Cured': 6159676, 'Deaths': 134201, 'Confirmed': 6363442}
 
